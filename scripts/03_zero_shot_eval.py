@@ -54,4 +54,5 @@ summary = {
     "mean_cer_raw": float(baseline_df["cer_raw"].mean()),
     "mean_wer_norm": float(baseline_df["wer_norm"].mean()),
     "mean_cer_norm": float(baseline_df["cer_norm"].mean()),
+}
 print(summary)
